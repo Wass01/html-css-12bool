@@ -121,7 +121,7 @@
 /* offset */
 
 .container > [class^="col-"]{
-  height: 200px;
+  padding: 100px 0;
   background-color: #FFC0CB;
   border: 1px solid #000000;
   text-align: center;
