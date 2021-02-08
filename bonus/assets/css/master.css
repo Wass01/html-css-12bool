@@ -1,3 +1,4 @@
+/* utility */
 *{
   margin: 0;
   padding: 0;
@@ -23,4 +24,30 @@
   width: calc(100%/12);
   height: 95px;
   border: 1px solid #000000;
+  text-align: center;
+}
+/* utility */
+
+strong{
+  font-size: 30px;
+  position: relative;
+  top: 32px;
+}
+
+.bg-brown,
+.container div:first-child,
+.container div:last-child{
+  background-color: #D18B46;
+}
+
+.opacity-brown{
+  background-color: #FECE9E;
+}
+
+img{
+  height: 90px;
+}
+
+.regina-nera > img{
+  height: 80px;
 }
