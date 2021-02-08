@@ -126,8 +126,15 @@
   text-align: center;
 }
 
+.container > .nested{
+  padding: 0;
+  background-color: #FFC0CB;
+  border: 1px solid #000000;
+}
+
 .container > [class^="col-"] > [class^="col-"]{
   background-color: #F07F80;
   border: 1px solid #FFFFFF;
   text-align: center;
+  padding: 100px 0;
 }
