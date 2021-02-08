@@ -126,13 +126,11 @@
   text-align: center;
 }
 
-.container > .nested{
+.container > .footer{
   padding: 0;
-  background-color: #FFC0CB;
-  border: 1px solid #000000;
 }
 
-.container > [class^="col-"] > [class^="col-"]{
+.nested > [class^="col-"] {
   background-color: #F07F80;
   border: 1px solid #FFFFFF;
   text-align: center;
