@@ -130,6 +130,10 @@
   padding: 0;
 }
 
+.nested{
+  margin: 10px;
+ }
+
 .nested > [class^="col-"] {
   background-color: #F07F80;
   border: 1px solid #FFFFFF;
